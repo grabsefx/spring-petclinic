@@ -29,6 +29,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class PetClinicApplication {
 
     public static void main(String[] args) {
+        // just to trigger the job
         SpringApplication.run(PetClinicApplication.class, args);
     }
 
