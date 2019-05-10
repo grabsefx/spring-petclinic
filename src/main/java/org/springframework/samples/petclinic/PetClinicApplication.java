@@ -19,6 +19,8 @@ package org.springframework.samples.petclinic;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+import java.io.IOException;
+
 /**
  * PetClinic Spring Boot Application.
  *
@@ -28,7 +30,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class PetClinicApplication {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         // just to igger the job
         SpringApplication.run(PetClinicApplication.class, args);
     }
